@@ -1,0 +1,16 @@
+{
+  "name": "soul-fl-web-artifact",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Soul-FL ledger prototype requiring an independently generated enrollment verifier",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy_and_test.js"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "ethers": "^6.0.0",
+    "hardhat": "^2.22.0"
+  }
+}
